@@ -48,12 +48,12 @@ dataset/
 ```text
 python -m finetune.main --mps --batch_size 8 --epochs 20
 ```
-# NVIDIA GPU (CUDA):
+#### NVIDIA GPU (CUDA):
 ```text
 python -m finetune.main --cuda --batch_size 16 --epochs 50
 ```
 **多卡分布式训练 (DDP):**
-# 例如：使用 4 张显卡
+例如使用 4 张显卡
 ```text
 torchrun --nproc_per_node=4 -m finetune.main --cuda --batch_size 16 --epochs 100
 ```
