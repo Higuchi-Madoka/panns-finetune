@@ -1,0 +1,10 @@
+name: panns_bsc
+channels:
+  - defaults
+dependencies:
+  - python=3.8
+  - libsndfile
+  - matplotlib
+  - pysoundfile
+  - librosa
+prefix: /work/wangzx/miniconda3/envs/panns_bsc
